@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Foundations Test</title>
+    <link rel="stylesheet" href="sytle.css">
+</head>
+<body>
+
+    <div class="comput">
+      <img src="img.png" alt="">  
+    </div>
+    <div class="container">
+<form  id="signup" name="form-form" method="get">
+<h1>Sing-in</h1>
+<p class="dont">Don't have an account? <a href="">Create your account,</a> it takes less than a minute.</p>
+<div class="name">
+    <label>Fullname</label><br>
+    <input type="text" id="fullname" name="fullname" placeholder=" Enter fullname">
+<p id="nameError" style="color: red;"></p>
+</div>
+
+<div class="email">
+    <label>Email</label><br>
+    <input type="text" id="email" name="email" placeholder=" Enter email"  >
+    <p id="mailError" style="color: red;"></p>
+</div>
+
+<div class="password">
+    <label>Password</label><br>
+    <input type="password" id="password" name="password" placeholder=" Enter password" minlength="6" >
+<p id="passError" style="color: red;"></p>
+</div>
+<!--I use "require" the property to check that it is working.-->
+<div class="click">
+    <input  class="checkbox" type="checkbox" required>   I Accept terms and conditions & privacy policy
+</div>
+
+<div class="box">
+    <button type="submit" id="btn" name="submit" class="submit">LOGIN</button>
+</div>
+</form>
+ </div>
+
+ <script src="script.js"></script>
+
+</body>
+</html>
